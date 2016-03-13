@@ -454,7 +454,7 @@ OPENID_PROVIDER_TRUSTED_ROOTS = ['cs50.net', '*.cs50.net']
 
 # OpenID Connect issuer ID. Normally the URL of the authentication endpoint.
 
-OAUTH_OIDC_ISSUER = 'https:/edudemy.org/oauth2'
+OAUTH_OIDC_ISSUER = 'https:/example.com/oauth2'
 
 # OpenID Connect claim handlers
 
@@ -804,21 +804,21 @@ CMS_BASE = 'localhost:8001'
 
 # Site info
 SITE_ID = 1
-SITE_NAME = "edudemy.org"
+SITE_NAME = "example.com"
 HTTPS = 'on'
 ROOT_URLCONF = 'lms.urls'
 # NOTE: Please set ALLOWED_HOSTS to some sane value, as we do not allow the default '*'
 
 # Platform Email
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-DEFAULT_FROM_EMAIL = 'registration@edudemy.org'
-DEFAULT_FEEDBACK_EMAIL = 'feedback@edudemy.org'
-SERVER_EMAIL = 'devops@edudemy.org'
-TECH_SUPPORT_EMAIL = 'technical@edudemy.org'
-CONTACT_EMAIL = 'info@edudemy.org'
-BUGS_EMAIL = 'bugs@edudemy.org'
-UNIVERSITY_EMAIL = 'university@edudemy.org'
-PRESS_EMAIL = 'press@edudemy.org'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+DEFAULT_FROM_EMAIL = 'registration@example.com'
+DEFAULT_FEEDBACK_EMAIL = 'feedback@example.com'
+SERVER_EMAIL = 'devops@example.com'
+TECH_SUPPORT_EMAIL = 'technical@example.com'
+CONTACT_EMAIL = 'info@example.com'
+BUGS_EMAIL = 'bugs@example.com'
+UNIVERSITY_EMAIL = 'university@example.com'
+PRESS_EMAIL = 'press@example.com'
 FINANCE_EMAIL = ''
 ADMINS = ()
 MANAGERS = ADMINS
@@ -1002,7 +1002,7 @@ ZENDESK_API_KEY = None
 EMBARGO_SITE_REDIRECT_URL = None
 
 ##### shoppingcart Payment #####
-PAYMENT_SUPPORT_EMAIL = 'payment@edudemy.org'
+PAYMENT_SUPPORT_EMAIL = 'payment@example.com'
 
 ##### Using cybersource by default #####
 
@@ -1681,7 +1681,7 @@ CELERYD_HIJACK_ROOT_LOGGER = False
 
 # Suffix used to construct 'from' email address for bulk emails.
 # A course-specific identifier is prepended.
-BULK_EMAIL_DEFAULT_FROM_EMAIL = 'no-reply@edudemy.org'
+BULK_EMAIL_DEFAULT_FROM_EMAIL = 'no-reply@example.com'
 
 # Parameters for breaking down course enrollment into subtasks.
 BULK_EMAIL_EMAILS_PER_TASK = 100
@@ -2636,7 +2636,7 @@ CREDIT_HELP_LINK_URL = "#"
 # via the LTI Provider feature. Note that the generated e-mail addresses are
 # not expected to be active; this setting simply allows administrators to
 # route any messages intended for LTI users to a common domain.
-LTI_USER_EMAIL_DOMAIN = 'lti.edudemy.org'
+LTI_USER_EMAIL_DOMAIN = 'lti.example.com'
 
 # An aggregate score is one derived from multiple problems (such as the
 # cumulative score for a vertical element containing many problems). Sending
