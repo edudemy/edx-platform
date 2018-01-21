@@ -2,12 +2,12 @@
   "name": "edx",
   "version": "0.1.0",
   "dependencies": {
-    "coffee-script": "1.6.1",
-    "uglify-js": "2.4.24"
+    "coffee-script": "1.12.7",
+    "uglify-js": "3.3.8"
   },
   "devDependencies": {
     "jshint": "^2.7.0",
     "edx-custom-a11y-rules": "edx/edx-custom-a11y-rules",
-    "plato": "1.2.2"
+    "plato": "1.7.0"
   }
 }
